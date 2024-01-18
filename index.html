@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHUBHAM RAWAT | | iPortfolio</title>
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fontawesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper css added  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- script tag included  -->
+    <script defer src="./container.js"></script>
+</head>
+
+<body class="sticky">
+    <!-- ++++++++++++++++++++   
+===========       navbar section start here   ================== 
++++++++++++++++++++++++++++++++   -->
+    <header class="header" id="header-section">
+        <nav class="container">
+            <div class="logo_section">
+                <img src="images/logo.png" class="logo-img" alt="logo">
+            </div>
+            <div class="menu_section">
+                <ol class="navbar_lists">
+                    <li><a href="#hero-section" class="navbar_link home_link">Home</a></li>
+                    <li><a href="#bio-data-section" class="navbar_link about_link">About</a></li>
+                    <li><a href="#portfolio" class="navbar_link portfolio_link">Portfolio</a></li>
+                    <li><a href="#services-section" class="navbar_link service_link">Service</a></li>
+                    <li><a href="#contact-section" class="navbar_link contact_link">Contact</a></li>
+                </ol>
+            </div>
+            <div class="hamburger_section">
+                <span class="first-icon">
+                    <i class="fa-solid fa-bars fa-4x"></i>
+                </span>
+                <span class="second-icon">
+                    <i class="fa-solid fa-square-xmark fa-4x"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ++++++++++++++++++++   
+    ===========       hero section start here   ================== 
+    +++++++++++++++++++++++++++++++  -->
+
+    <main>
+        <section class="section_hero section" id="hero-section">
+            <div class="container grid grid-two-column">
+
+                <!-- hero section left side data  -->
+
+                <div class="section_hero_data">
+                    <p class="section_hero_top_data" style="color: #8490ff;">this is me</p>
+                    <h1 class="hero_heading">Shubham Rawat</h1>
+                    <p class="hero_para">
+                        I'm Shubham Rawat. A Front End Developer, influencer and content creator.
+                    </p>
+                    <div class="btn_container">
+                        <a href="#contact-section" class="btn spcl_btn">Hire Me</a>
+                    </div>
+                </div>
+
+                <!-- hero section right side data  -->
+
+                <div class="section_hero_image">
+                    <figure class="hero_image">
+                        <img src="images/hero-img.jpg" alt="heroImage">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ++++++++++++++++++++   
+    ===========       BioData section start here   ================== 
+    +++++++++++++++++++++++++++++++  -->
+
+    <section class="section_bio_data section" id="bio-data-section">
+        <div class="container grid grid-two-column">
+
+            <!-- bio left side data  -->
+
+            <figure class="bio_image">
+                <img src="images/shubham.png" alt="my bio data image">
+            </figure>
+
+            <!-- bio right side data  -->
+
+            <div class="bio_data">
+                <h2 class="common_heading">my bio-data</h2>
+                <p>With the technical skills like HTML5, CSS3, Sass, Javascript,Reactjs under my belt, I am looking
+                    forward for an entity where i can contribuite and vice
+                    versa. My ultimate goal is to upgrade myself day by day in the technical field.</p>
+                <br>
+                <div class="bio_data_stats">
+                    <div class="bio_stats">
+                        <h2>Design</h2>
+                        <div class="bio_progress_bar bio_progress_1">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                    <div class="bio_stats">
+                        <h2>Html</h2>
+                        <div class="bio_progress_bar bio_progress_2">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio_stats">
+                        <h2>CSS</h2>
+                        <div class="bio_progress_bar bio_progress_3">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio_stats">
+                        <h2>Javascript</h2>
+                        <div class="bio_progress_bar bio_progress_4">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio_stats">
+                        <h2>ReactJs</h2>
+                        <div class="bio_progress_bar bio_progress_5">
+                            <span>60%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="btn_container">
+                    <a href="Resume.pdf" class="btn spcl_btn" download="Resume">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ++++++++++++++++++++   
+    ===========       Portfolio section start here   ================== 
+    +++++++++++++++++++++++++++++++  -->
+
+    <section class="section_portfolio section" id="portfolio">
+        <div class="container">
+            <h2 class="common_heading">Latest Works</h2>
+            <p>I create beatiful design that makes difference</p>
+            <p>Using Technical Skills - HTML:5, CSS:3, JS , ReactJS created some beatiful projects. The goal is to learn
+                the
+                concept for betterment and growth in Web Developement field.</p>
+            <div class="portfolio_buttons">
+                <a class="btn spcl_btn spcl_class" data-btn-num="1">Landing Page</a>
+                <a class="btn spcl_btn spcl_class" data-btn-num="2">Static Page</a>
+                <a class="btn spcl_btn spcl_class" data-btn-num="3">Dynamic Page</a>
+            </div>
+
+            <div class="portfolio_section">
+                <div class="container grid grid-three-column portfolio_content">
+                    <figure class="img_overlay p-btn--1 p-btn--2  p-btn--3">
+                        <img src="images/thumbnails/1.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://incandescent-brioche-a743b7.netlify.app" class="btn spcl_btn spcl_class"
+                                target="_blank">Drum Drum</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/2.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://dapper-lokum-391287.netlify.app" target="_blank" class="btn spcl_btn">Basic
+                                First</a>
+                        </figcaption>
+
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/3.png" alt="folio3">
+                        <figcaption>
+                            <a href="https://incredible-cupcake-dcabea.netlify.app" target="_blank"
+                                class="btn spcl_btn">EduCal</a>
+                        </figcaption>
+
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--3 p-btn--1">
+                        <img src="images/thumbnails/4.png" alt="folio4">
+                        <figcaption>
+                            <a href="https://stupendous-tartufo-4d390a.netlify.app" target="_blank"
+                                class="btn spcl_btn">Game</a>
+                        </figcaption>
+
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/5.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://sprightly-salamander-a5ec9c.netlify.app" target="_blank"
+                                class="btn spcl_btn">Metro
+                                Shoes</a>
+                        </figcaption>
+
+                    </figure>
+                    <figure class="img_overlay p-btn--3 p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/7.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://tiny-longma-375e74.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Music
+                                Player</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/6.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://iridescent-kitsune-ec150f.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Moveflix</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--3 p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/8.png" alt="folio1">
+                        <figcaption>
+                            <a href="#header-section" class="btn spcl_btn spcl_class">My Portfolio</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/9.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://super-bonbon-1fc8f2.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Radio</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/10.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://ornate-tiramisu-6a5209.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Project 10</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/11.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://spiffy-sunburst-fe3242.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Sound</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/12.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://fanciful-fox-cc9e20.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Vercel</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/13.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://legendary-dieffenbachia-68d569.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Woodson</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="img_overlay p-btn--2 p-btn--1">
+                        <img src="images/thumbnails/14.png" alt="folio1">
+                        <figcaption>
+                            <a href="https://subtle-crostata-455a70.netlify.app" target="_blank"
+                                class="btn spcl_btn spcl_class">Project 14</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- +++++++++++++++++++++++++
+    our services-section ===========================
+    +++++++++++++++++++++++++ -->
+
+    <section class="section_services section" id="services-section">
+        <div class="container">
+            <h2 class="common_heading">Our Services</h2>
+            <div class="btn_container">
+                <a href="#contact-section" class="btn spcl_btn">Hire Me</a>
+            </div>
+        </div>
+        <div class="container grid grid-three-column service_section">
+            <div class="service_content">
+                <figure>
+                    <i class="fa-solid fa-desktop fa-4x service_icon"></i>
+                    <figcaption>
+                        <h2>Web Design</h3>
+                    </figcaption>
+                </figure>
+                <p>Creating Landing Pages is the thing amaze me. Created 15+ Webpages so far.</p>
+            </div>
+            <div class="service_content ">
+                <figure>
+                    <i class="fa-brands fa-react fa-4x  service_icon"></i>
+                    <figcaption>
+                        <h2>Creative Design</h2>
+                    </figcaption>
+                </figure>
+                <p>Created frames and design plus multiple feature using Figma (cloud based platform).</p>
+            </div>
+            <div class="service_content">
+                <figure>
+                    <i class="fa-brands fa-rocketchat  fa-4x  service_icon"></i>
+                    <figcaption>
+                        <h2>UI/UX Design</h3>
+                    </figcaption>
+                </figure>
+                <p>With Technical Skills like HTML,CSS,JS plus reactJS [Component Based Approach], created 15+ projects
+                    so far.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- +++++++++++++++++++++++++
+    our testimonial-section ===========================
+    +++++++++++++++++++++++++ -->
+
+    <section class="section_testimonial">
+        <div class="container">
+            <h2 class="common_heading">Our Clients</h2>
+        </div>
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/a.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/b.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/c.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/d.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/e.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/f.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/g.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/h.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-client-msg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas temporibus
+                                accusamus nostrum sequi, voluptas quisquam, commodi expedita quam odit nobis
+                                consequuntur pariatur.
+                            </p>
+                        </div>
+                        <div class="swiper-client-data grid grid-two-column">
+                            <figure>
+                                <img src="images/clients/a.jpg" alt="client1">
+                            </figure>
+                            <div class="client-data-details">
+                                <p>kunal khemu</p>
+                                <p>Entrepreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- +++++++++++++++++++++++++
+    our Freelancing-section ===========================
+    +++++++++++++++++++++++++ -->
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container flex-prop">
+            <h2>I am <span>available</span> to Work</h2>
+            <a href="#contact-section" class="spcl_btn class_btn">HIRE ME</a>
+        </div>
+    </section>
+
+    <!-- +++++++++++++++++++++++++
+    our Contact-section ===========================
+    +++++++++++++++++++++++++ -->
+    <section class="section section-contact" id="contact-section">
+        <div class="container">
+            <h2 class="common_heading">Contact Us</h2>
+            <form action="https://formspree.io/f/mayzldnz" class="form-ctrl" method="POST">
+                <span>
+                    <label for="name">
+                        <input type="text" class="infield" name="name" id="name" placeholder="Name" required>
+                    </label>
+                    <label for="email">
+                        <input type="email" class="infield" name="email" id="email" placeholder="Email" required>
+                    </label>
+                </span>
+                <label for="subject" class="subject">
+                    <input type="text" class="infield w-style" name="subject" id="subject" placeholder="Subject"
+                        required>
+                </label>
+                <textarea name="textfield" id="textField" cols="40" rows="10" placeholder="Enter your message"
+                    required></textarea>
+                <div class="btn_container">
+                    <input type="submit" value="Send Me Message" class="btn spcl_btn"></input>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- +++++++++++++++++++++++++
+    our Footer-section ===========================
+    +++++++++++++++++++++++++ -->
+
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="footer_content1">
+                <div class="footer-heading">
+                    <h3>About</h3>
+                </div>
+                <p>We have testes a number of registry fix and clean utility list and present out top 3 list on our
+                    website for our convenience. Hope you like it</p>
+            </div>
+            <div class="footer_content2">
+                <div class="footer-heading">
+                    <h3>Links</h3>
+                </div>
+                <ul class="unorder_list unorder_list--1">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_content3">
+                <div class="footer-heading">
+                    <h3>Services</h3>
+                </div>
+                <ul class="unorder_list unorder_list--2">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Web Project</a></li>
+                    <li><a href="#">Online Classes</a></li>
+                    <li><a href="#">Youtube Courses</a></li>
+                </ul>
+            </div>
+            <div class="footer_content4">
+                <div class="footer-heading">
+                    <h3>Have a Questions?</h3>
+                </div>
+                <ul class="unorder_list unorder_list--3">
+                    <li><a href="#">Pune, India</a></li>
+                    <li><a href="tel:+91 9711071504">+91 9711071504</a></li>
+                    <li class="mailChild"><a href="mailto:rawatshubam269@gmail.com">rawatshubam269@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_icon_section">
+            <i class="fa-brands fa-instagram font_style service_icon"></i>
+            <i class="fa-brands fa-discord font_style service_icon"></i>
+            <i class="fa-brands fa-youtube font_style service_icon"></i>
+        </div>
+        <p class="footer-para">Copyright @2023 All rights reserved ! This template is made with 💟 by Shubham Rawat</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+</body>
+
+</html>
