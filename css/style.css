@@ -29,6 +29,8 @@ img {
 }
 
 :root {
+  --bg-clr: #5C2CC5;
+  --btn-clr: #F9696D;
   --primary-color: #192a56;
   --secondary-color: #777;
   --black-color: #000000;
@@ -104,9 +106,10 @@ p {
   margin: 0 auto;
 }
 
-.spcl_btn {
-  background: var(--gradientSupport);
-  padding: 1.6rem 3.2rem;
+.btn {
+  background-color: var(--btn-clr);
+  padding: 1.2rem 3rem;
+  border-radius: 10rem;
   display: inline-block;
   text-transform: uppercase;
   border: none;
@@ -116,8 +119,17 @@ p {
   font-size: 1.25rem;
 }
 
-.spcl_btn:hover,
-.spcl_btn:active {
+.first-icon,
+.second-icon {
+  cursor: pointer;
+}
+
+#cross-menu {
+  display: none;
+}
+
+.btn:hover,
+.btn:active {
   transition: box-shadow .3s ease;
   box-shadow: var(--shadow);
 }
@@ -149,34 +161,36 @@ p {
 ===========       navbar styling   ================== 
 +++++++++++++++++++++++++++++++  */
 header {
-  background-color: var(--bg);
+  background-color: var(--bg-clr);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.4rem 0;
+  padding: 1rem 0;
 }
 
-.logo_section img {
-  width: 70%;
+.header img {
+  width: 20%;
 }
 
-.navbar_lists {
+.navbar-lists {
   text-transform: capitalize;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 3rem;
-  font-size: 1.5rem;
   font-family: 'Fredoka', sans-serif;
   gap: 3rem;
 }
 
-.navbar_link {
+.navbar-link {
+  color: var(--white);
   font-size: 1.75rem;
 }
 
-.navbar_link:hover {
+.navbar-link:hover {
   transition: all .4s;
   color: var(--helper-color);
 }
@@ -806,10 +820,18 @@ Contact Us-section ===========================
   padding: 9rem 0 2rem;
 }
 
-.active {
+/* .active {
   transform: translateX(0) !important;
   transition: all .5s ease-out;
-}
+
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: bisque;
+  width: 40vw;
+  height: 100vh;
+} */
 
 /* <!-- +++++++++++++++++++++++++
  Media Query -section start here  ===========================
@@ -854,27 +876,22 @@ Contact Us-section ===========================
     max-width: 100rem;
   }
 
-  .hamburger_section {
-    display: block;
-    position: relative;
-    z-index: 99999;
-  }
-
-  .hamburger_section .second-icon {
+  .header {
     display: none;
   }
 
-  .menu_section {
+  .menu-section {
     display: none;
   }
 
-  .navbar_lists {
+
+  .navbar-lists {
     display: flex;
     flex-direction: column;
     font-size: 4rem;
   }
 
-  .navbar_lists li a {
+  .navbar-lists li a {
     color: var(--white);
   }
 
