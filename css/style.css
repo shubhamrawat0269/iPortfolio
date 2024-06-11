@@ -133,7 +133,8 @@ p {
 .download-btn {
   position: absolute;
   bottom: 5rem;
-  left: 5rem;
+  left: 50rem;
+  z-index: 1;
 
   background-color: var(--para-tint);
   padding: 1.2rem 3rem;
@@ -276,11 +277,27 @@ nav {
 }
 
 .hero-image {
-  max-width: 28%;
+  max-width: 25%;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  z-index: 1;
+}
+
+.hero-image img {
+  position: relative;
+  top: 1.5rem;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+
   background-color: #F9696D;
+  width: 100%;
+  height: 100%;
+
+  z-index: -1;
 }
 
 
@@ -320,6 +337,20 @@ nav {
 .bio_image img {
   width: 55%;
   box-shadow: -2rem -2rem 0 0 var(--helper-color);
+}
+
+.bio-data-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.bio-cell {
+  border-radius: 2rem;
+  border: 2px solid var(--para-tint);
+  padding: 1rem;
+  font-size: 1.25rem;
 }
 
 .common-heading {
@@ -508,7 +539,7 @@ nav {
     our services-section ===========================
     +++++++++++++++++++++++++ --> */
 .service_section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .section_services {
@@ -523,7 +554,8 @@ nav {
 }
 
 .service-content h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin: 1rem 0;
 }
 
 .para {
