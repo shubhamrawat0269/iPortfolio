@@ -166,22 +166,22 @@ p {
 
 .ui-btn {
   top: 0;
-  left: 10rem;
+  left: 18rem;
 }
 
 .smile-btn {
   top: 2rem;
-  right: 10rem;
+  right: 22rem;
 }
 
 .work-btn {
   bottom: 2rem;
-  left: 4rem;
+  left: 14rem;
 }
 
 .project-btn {
-  bottom: 10rem;
-  right: 10rem;
+  bottom: 2rem;
+  right: 20rem;
 }
 
 .sticky {
@@ -337,6 +337,10 @@ nav {
   display: flex;
   flex-direction: column;
   line-height: 2;
+}
+
+.service-section.grid {
+  gap: 4rem;
 }
 
 
@@ -553,11 +557,11 @@ nav {
 /* <!-- +++++++++++++++++++++++++
     our services-section ===========================
     +++++++++++++++++++++++++ --> */
-.service_section {
+.service-section {
   padding: 4rem 0;
 }
 
-.section_services {
+.section-services {
   text-align: center;
 }
 
@@ -902,7 +906,9 @@ Contact Us-section ===========================
     display: none;
   }
 
-
+  .service-section.grid-four-column {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 
   .navbar-lists {
@@ -978,6 +984,12 @@ Contact Us-section ===========================
     max-width: 80rem;
   }
 
+  .download-btn {
+    bottom: 1rem;
+    left: 30rem;
+  }
+
+
   .section-footer .grid-four-column {
     grid-template-columns: 1fr 1fr;
   }
@@ -995,6 +1007,15 @@ Contact Us-section ===========================
 @media(max-width:36em) {
   .container {
     max-width: 69rem;
+  }
+
+  .download-btn {
+    bottom: 1rem;
+    left: 30rem;
+  }
+
+  .service-section.grid-four-column {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .section_counter .grid-four-column {
