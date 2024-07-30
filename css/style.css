@@ -498,12 +498,6 @@ nav {
 .img_overlay {
   position: relative;
   overflow: hidden;
-  height: 90%;
-  aspect-ratio: 1;
-}
-
-.img_overlay img {
-  height: inherit;
 }
 
 .img_overlay figcaption {
@@ -685,6 +679,27 @@ our Freelancing-section ===========================
 .section-freelancing p {
   color: var(--white);
   margin-bottom: 1.8rem;
+}
+
+.company-card {
+  border: 2px solid var(--para-tint);
+  border-radius: 0.5rem;
+  font-size: 3.5rem;
+  padding: 1rem 2.5rem;
+  color: #a0f669;
+}
+
+.freelancing-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-profile {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  align-items: center;
 }
 
 /* <!-- +++++++++++++++++++++++++
@@ -910,6 +925,9 @@ Contact Us-section ===========================
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .freelancing-section {
+    flex-direction: column;
+  }
 
   .navbar-lists {
     display: flex;
@@ -1013,6 +1031,7 @@ Contact Us-section ===========================
     bottom: 1rem;
     left: 30rem;
   }
+
 
   .service-section.grid-four-column {
     grid-template-columns: repeat(1, 1fr);
