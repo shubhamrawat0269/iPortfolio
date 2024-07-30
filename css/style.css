@@ -236,8 +236,9 @@ nav {
   padding: 1rem 0;
 }
 
-.header img {
-  width: 20%;
+.header h2 {
+  font-size: 3rem;
+  color: #e4e4e4;
 }
 
 .navbar-lists {
