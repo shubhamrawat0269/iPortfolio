@@ -495,12 +495,16 @@ nav {
   padding: 2rem 0;
 }
 
-.img_overlay {
+.img-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.img_overlay figcaption {
+.img-overlay img {
+  height: 100%;
+}
+
+.img-overlay figcaption {
   position: absolute;
   top: 0;
   left: 0;
@@ -514,7 +518,7 @@ nav {
   place-items: center;
 }
 
-.img_overlay:hover.img_overlay figcaption {
+.img-overlay:hover.img-overlay figcaption {
   transform: translateY(0);
 }
 
